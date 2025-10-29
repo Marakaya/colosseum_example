@@ -17,7 +17,7 @@ BBM (block builder) and validator client for Solana
 - другие ссылки на ресурсы вашего проекта
 
 # Problem and solution
-1. Low latency:
+1. High latency:
 - RPC → TPU → Banking Stage causes 300–500 ms delay and missed arbitrage.
 - BBM: Direct Trader → BBM with pre-simulation cuts latency to 50–100 ms.
 2. Inefficient block assembly:
