@@ -1,12 +1,12 @@
-# Название вашего проекта
-Краткое описание вашего проекта, какую проблемы вы решаете (тут буквально несколькими словами)?
-Также сюда можно вставить графику или картинку, которая создает атмосферу вашего продукта
-![Example_project_image](example_project_image.png)
+# Shiroi
+BBM (block builder) and validator client for Solana
 
 # Submission to 2025 Solana Colosseum Submission by:
-- Афанасьев Максим (ссылка на гитхаб) (ссылка на Х) (ссылка на LinkedIn)
-- Член команды 2 (ссылка на гитхаб) (ссылка на Х) (ссылка на LinkedIn)
-- Член команды 3 (ссылка на гитхаб) (ссылка на Х) (ссылка на LinkedIn)
+- Semyon Golovin. Founder. [GitHub](https://github.com/semgoSE). [TG](https://t.me/semgoSE). [X](https://x.com/semgoSE).
+- Evgeny Malogritsenko. Project manager. [GitHub](https://github.com/Noname400). [TG](https://t.me/nonexhunt). [X](https://x.com/DevnpSol).
+- Semen Golovchenko. Backend Dev. [GitHub](https://github.com/iFrosta). [TG](https://t.me/ifrosta). [X](https://x.com/ifrosta).
+- Khramtsovskii Igor. Community manager. [TG](https://t.me/hagtyf). [X](https://x.com/YmkaAvadol)
+- Maxim Afanasyev. Ceo. [TG](https://t.me/maxnutrition). [X](https://x.com/_Marakaya)
 
 # Resources
 - ссылка на презентацию проекта
@@ -17,8 +17,18 @@
 - другие ссылки на ресурсы вашего проекта
 
 # Problem and solution
-Более подробно описываем проблему, которую пытаетесь решить, также кратко описываете свое решение. Можно добавить визуального оформления, небольшую схему или цифры (масштаб проблемы, сколько в теории можно сэкономить, внедрив ваше решение и т.д.)
-
+1. High latency:
+- RPC → TPU → Banking Stage causes 300–500 ms delay and missed arbitrage.
+- BBM: Direct Trader → BBM with pre-simulation cuts latency to 50–100 ms.
+2. Inefficient block assembly:
+- Validators fill blocks only 70–80 %, wasting compute on conflicts.
+- BBM: Parallel processing, conflict resolution, optimized bundles.
+3. Limited transaction logic:
+ - Solana lacks conditional execution and privacy.
+ - BBM: Adds conditional and atomic bundles with concealed content.
+4. App-controlled execution:
+- Validators dictate order, enabling MEV.
+- BBM: Lets apps set their own auction logic and fair ordering.
 # Summary of Submission Features
 Здесь можно перечислить список сервисов и технологических решений, которые вы используете в своем продукте.
 Проект Tap заполнил этот раздел так:
@@ -39,7 +49,3 @@
 # Quick start
 Небольшой мануал как быстро запустить ваш проект. Если есть возможность склонировать ваш репозиторий и локально его запустить, распишите все зависимости и напишите простой мануал, чтобы жюри смогли запустить его локально. Обязательно проверьте на чистом сервере, чтобы точно все запустилось и работало.
 
-# Program Info
-Если вы уже создали свои программы на Solana (смарт-контракты) и задеплоили их в тестнет или девнет, напишите их адреса тут. Проект Tap это сделал так (у него было 2 программы):
- - PROGRAM: TAPAPp2YoguQQDkicGyzTzkA3t4AgECvR1eL1hbx9qz
- - BANK: AU88yciXy2Rz2DJkUUFu2gpYqaPRLngd3sevSfAH8KyS
