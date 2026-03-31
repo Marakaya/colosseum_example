@@ -1,12 +1,8 @@
-# Shiroi
-BBM (block builder) and validator client for Solana
+# Project name
+Краткое описание проекта, буквально 2 предложения.
 
-# Submission to 2025 Solana Colosseum Submission by:
-- Semyon Golovin. Founder. [GitHub](https://github.com/semgoSE). [TG](https://t.me/semgoSE). [X](https://x.com/semgoSE).
-- Evgeny Malogritsenko. Project manager. [GitHub](https://github.com/Noname400). [TG](https://t.me/nonexhunt). [X](https://x.com/DevnpSol).
-- Semen Golovchenko. Backend Dev. [GitHub](https://github.com/iFrosta). [TG](https://t.me/ifrosta). [X](https://x.com/ifrosta).
-- Khramtsovskii Igor. Community manager. [TG](https://t.me/hagtyf). [X](https://x.com/YmkaAvadol)
-- Maxim Afanasyev. Ceo. [TG](https://t.me/maxnutrition). [X](https://x.com/_Marakaya)
+# Submission to 2026 Solana National Hackathon by:
+- Maxim Afanasyev. Founder. [TG](https://t.me/maxnutrition). [X](https://x.com/_Marakaya)
 
 # Resources
 - ссылка на презентацию проекта
@@ -29,6 +25,7 @@ BBM (block builder) and validator client for Solana
 4. App-controlled execution:
 - Validators dictate order, enabling MEV.
 - BBM: Lets apps set their own auction logic and fair ordering.
+
 # Summary of Submission Features
 Здесь можно перечислить список сервисов и технологических решений, которые вы используете в своем продукте.
 Проект Tap заполнил этот раздел так:
