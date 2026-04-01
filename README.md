@@ -2,7 +2,7 @@
 
 [![CI](https://github.com/Marakaya/colosseum_example/actions/workflows/ci.yml/badge.svg)](https://github.com/Marakaya/colosseum_example/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-14F195.svg)](LICENSE)
-[![Solana](https://img.shields.io/badge/Solana-mainnet-9945FF)](https://solana.com)
+[![Solana](https://img.shields.io/badge/Solana-devnet-9945FF)](https://solana.com)
 [![Hackathon](https://img.shields.io/badge/Colosseum-2026-14F195)](https://colosseum.org)
 
 > Decentralized block building protocol for Solana — reduces transaction latency from 300–500 ms to **50–100 ms** and eliminates MEV through app-controlled execution order.
