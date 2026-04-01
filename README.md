@@ -11,7 +11,7 @@
 
 ---
 
-![BBM Dashboard](example_project_image.png)
+![BBM Dashboard](assets/project.jpg)
 
 ---
 
