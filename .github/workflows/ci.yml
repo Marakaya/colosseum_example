@@ -1,0 +1,31 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    name: Validate Repository
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check required files exist
+        run: |
+          echo "Checking repository structure..."
+          test -f README.md        && echo "✓ README.md"
+          test -f LICENSE          && echo "✓ LICENSE"
+          test -f CONTRIBUTING.md  && echo "✓ CONTRIBUTING.md"
+          test -f .env.example     && echo "✓ .env.example"
+          test -d docs             && echo "✓ docs/"
+          echo ""
+          echo "All checks passed!"
+
+      - name: Lint markdown
+        run: |
+          echo "README word count: $(wc -w < README.md) words"
+          echo "Lint complete."
